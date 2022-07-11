@@ -1,0 +1,204 @@
+     34856    20       INFO MainThread                 _log   12:25:51 643.0923938751221  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     34856    20       INFO   Thread-1           send_mail_from_outlook   12:25:55 340.34204483032227 body added
+     34856    40      ERROR   Thread-1           send_mail_from_outlook   12:25:55 342.36979484558105 (<class 'UnboundLocalError'>, UnboundLocalError("local variable 'attachments' referenced before assignment"), <traceback object at 0x000002A5628911C0>)
+     34856    20       INFO   Thread-1                 _log   12:25:55 344.4178104400635 127.0.0.1 - - [11/Jul/2022 12:25:55] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     38076    20       INFO MainThread                 _log   12:28:14 754.0888786315918  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     38076    20       INFO   Thread-1           send_mail_from_outlook   12:28:16 817.0278072357178 body added
+     38076    20       INFO   Thread-1           send_mail_from_outlook   12:28:17 273.0712890625 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     38076    20       INFO   Thread-1           send_mail_from_outlook   12:28:17 353.4255027770996 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     38076    20       INFO   Thread-1           send_mail_from_outlook   12:28:17 412.6143455505371 image added--->C:\Users\91807\Downloads\tech-logo.png
+     38076    40      ERROR   Thread-1           send_mail_from_outlook   12:28:18 417.82164573669434 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x000001C072A99F00>)
+     38076    20       INFO   Thread-1                 _log   12:28:18 420.81451416015625 127.0.0.1 - - [11/Jul/2022 12:28:18] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     39776    20       INFO MainThread                 _log   17:19:01 590.4664993286133  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     39776    20       INFO   Thread-1           send_mail_from_outlook   17:19:30 24.768590927124023 body added
+     39776    20       INFO   Thread-1           send_mail_from_outlook   17:19:30 440.4783248901367 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     39776    20       INFO   Thread-1           send_mail_from_outlook   17:19:30 569.9265003204346 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     39776    20       INFO   Thread-1           send_mail_from_outlook   17:19:30 630.6021213531494 image added--->C:\Users\91807\Downloads\tech-logo.png
+     39776    40      ERROR   Thread-1           send_mail_from_outlook   17:19:30 990.9956455230713 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x0000022668EE9F40>)
+     39776    20       INFO   Thread-1                 _log   17:19:31 0.6592273712158203 127.0.0.1 - - [11/Jul/2022 17:19:31] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     17964    20       INFO MainThread                 _log   17:21:22 970.0829982757568  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     17964    20       INFO   Thread-1           send_mail_from_outlook   17:21:56 199.93352890014648 body added
+     17964    20       INFO   Thread-1           send_mail_from_outlook   17:21:56 199.93352890014648 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     17964    20       INFO   Thread-1           send_mail_from_outlook   17:21:56 199.93352890014648 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     17964    20       INFO   Thread-1           send_mail_from_outlook   17:21:56 210.0238800048828 image added--->C:\Users\91807\Downloads\tech-logo.png
+     17964    40      ERROR   Thread-1           send_mail_from_outlook   17:21:56 250.26440620422363 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x000001248C35C040>)
+     17964    20       INFO   Thread-1                 _log   17:21:56 250.26440620422363 127.0.0.1 - - [11/Jul/2022 17:21:56] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     18804    20       INFO MainThread                 _log   17:32:24 908.9069366455078  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     18804    20       INFO   Thread-1           send_mail_from_outlook   17:32:31 648.7939357757568 body added
+     18804    20       INFO   Thread-1           send_mail_from_outlook   17:32:31 709.5913887023926 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     18804    20       INFO   Thread-1           send_mail_from_outlook   17:32:31 748.5120296478271 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     18804    20       INFO   Thread-1           send_mail_from_outlook   17:32:31 773.576021194458 image added--->C:\Users\91807\Downloads\tech-logo.png
+     18804    40      ERROR   Thread-1           send_mail_from_outlook   17:32:32 106.43219947814941 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x00000262E2F3D100>)
+     18804    20       INFO   Thread-1                 _log   17:32:32 108.64520072937012 192.168.0.6 - - [11/Jul/2022 17:32:32] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     33028    20       INFO MainThread                 _log   17:33:07 510.47444343566895  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     33028    20       INFO   Thread-1           send_mail_from_outlook   17:35:08 518.4307098388672 body added
+     33028    20       INFO   Thread-1           send_mail_from_outlook   17:35:08 522.946834564209 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     33028    20       INFO   Thread-1           send_mail_from_outlook   17:35:08 522.946834564209 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     33028    20       INFO   Thread-1           send_mail_from_outlook   17:35:08 522.946834564209 image added--->C:\Users\91807\Downloads\tech-logo.png
+     33028    40      ERROR   Thread-1           send_mail_from_outlook   17:35:08 550.5905151367188 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x00000218BC64E080>)
+     33028    20       INFO   Thread-1                 _log   17:35:08 550.5905151367188 192.168.0.6 - - [11/Jul/2022 17:35:08] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     35376    20       INFO MainThread                 _log   17:45:39 882.1151256561279  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     35376    20       INFO MainThread                 _log   17:45:40 498.046875  * Restarting with stat
+     19676    30    WARNING MainThread                 _log   17:45:45 785.3748798370361  * Debugger is active!
+     19676    20       INFO MainThread                 _log   17:45:46 746.3245391845703  * Debugger PIN: 139-333-499
+     19676    20       INFO   Thread-2           send_mail_from_outlook   17:45:53 496.37484550476074 body added
+     19676    20       INFO   Thread-2           send_mail_from_outlook   17:45:53 568.1962966918945 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     19676    20       INFO   Thread-2           send_mail_from_outlook   17:45:53 576.256513595581 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     19676    20       INFO   Thread-2           send_mail_from_outlook   17:45:53 646.7905044555664 image added--->C:\Users\91807\Downloads\tech-logo.png
+     19676    40      ERROR   Thread-2           send_mail_from_outlook   17:45:54 216.4158821105957 (<class 'socket.gaierror'>, gaierror(10109, 'getaddrinfo failed'), <traceback object at 0x000001B1E37B28C0>)
+     19676    20       INFO   Thread-2                 _log   17:45:54 216.4158821105957 192.168.0.6 - - [11/Jul/2022 17:45:54] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     18320    20       INFO MainThread                 _log   18:48:54 206.47072792053223  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     18320    20       INFO MainThread                 _log   18:48:54 317.49701499938965  * Restarting with stat
+     27128    30    WARNING MainThread                 _log   18:48:55 316.5404796600342  * Debugger is active!
+     27128    20       INFO MainThread                 _log   18:48:55 486.7701530456543  * Debugger PIN: 139-333-499
+      2256    20       INFO MainThread                 _log   18:49:24 286.4522933959961  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+      2256    20       INFO MainThread                 _log   18:49:24 296.2534427642822  * Restarting with stat
+     33464    30    WARNING MainThread                 _log   18:49:25 446.25163078308105  * Debugger is active!
+     33464    20       INFO MainThread                 _log   18:49:25 468.17851066589355  * Debugger PIN: 139-333-499
+     33464    20       INFO   Thread-2           send_mail_from_outlook   18:49:40 796.6630458831787 body added
+     33464    20       INFO   Thread-2           send_mail_from_outlook   18:49:40 796.6630458831787 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     33464    20       INFO   Thread-2           send_mail_from_outlook   18:49:40 806.0564994812012 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     33464    20       INFO   Thread-2           send_mail_from_outlook   18:49:40 809.8099231719971 image added--->C:\Users\91807\Downloads\tech-logo.png
+     33464    40      ERROR   Thread-2           send_mail_from_outlook   18:49:48 241.65797233581543 (<class 'smtplib.SMTPAuthenticationError'>, SMTPAuthenticationError(535, b'5.7.3 Authentication unsuccessful [MA0PR01CA0050.INDPRD01.PROD.OUTLOOK.COM]'), <traceback object at 0x000002855380F780>)
+     33464    20       INFO   Thread-2                 _log   18:49:48 241.65797233581543 127.0.0.1 - - [11/Jul/2022 18:49:48] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:49:59 926.9700050354004 body added
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:49:59 926.9700050354004 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:49:59 926.9700050354004 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:49:59 926.9700050354004 image added--->C:\Users\91807\Downloads\tech-logo.png
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:50:06 946.3953971862793 npeyyala@techforce.ai got logged in successfully
+     33464    20       INFO   Thread-3           send_mail_from_outlook   18:50:10 426.2669086456299 message sent successfully
+     33464    20       INFO   Thread-3                 _log   18:50:10 426.2669086456299 127.0.0.1 - - [11/Jul/2022 18:50:10] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:16 557.7850341796875 body added
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:16 557.7850341796875 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:16 557.7850341796875 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:16 566.0045146942139 image added--->C:\Users\91807\Downloads\tech-logo.png
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:24 774.6186256408691 npeyyala@techforce.ai got logged in successfully
+     33464    20       INFO   Thread-4           send_mail_from_outlook   18:50:28 246.354341506958 message sent successfully
+     33464    20       INFO   Thread-4                 _log   18:50:28 249.4182586669922 192.168.0.6 - - [11/Jul/2022 18:50:28] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     33464    20       INFO MainThread                 _log   19:02:20 845.0300693511963  * Detected change in 'C:\\Users\\91807\\OutlookMail_Using_SMTP\\src\\mail_server.py', reloading
+      2256    20       INFO MainThread                 _log   19:02:21 483.45422744750977  * Restarting with stat
+     39364    30    WARNING MainThread                 _log   19:02:28 486.13953590393066  * Debugger is active!
+     39364    20       INFO MainThread                 _log   19:02:28 849.6932983398438  * Debugger PIN: 139-333-499
+     25212    20       INFO MainThread                 _log   19:02:55 637.2926235198975  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     25212    20       INFO MainThread                 _log   19:02:55 654.6576023101807  * Restarting with stat
+     23364    30    WARNING MainThread                 _log   19:02:56 708.0292701721191  * Debugger is active!
+     23364    20       INFO MainThread                 _log   19:02:56 723.6678600311279  * Debugger PIN: 139-333-499
+     30804    20       INFO MainThread                 _log   19:04:41 282.0119857788086  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     30804    20       INFO MainThread                 _log   19:04:41 282.0119857788086  * Restarting with stat
+     36180    30    WARNING MainThread                 _log   19:04:41 856.7626476287842  * Debugger is active!
+     36180    20       INFO MainThread                 _log   19:04:41 920.3817844390869  * Debugger PIN: 139-333-499
+     36180    20       INFO   Thread-2           send_mail_from_outlook   19:04:51 725.0299453735352 html body attached
+     36180    20       INFO   Thread-2           send_mail_from_outlook   19:04:51 871.9832897186279 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     36180    20       INFO   Thread-2           send_mail_from_outlook   19:04:51 969.5284366607666 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     36180    20       INFO   Thread-2           send_mail_from_outlook   19:04:52 0.2498626708984375 image added--->C:\Users\91807\Downloads\tech-logo.png
+     36180    40      ERROR   Thread-2           send_mail_from_outlook   19:04:52 330.89280128479004 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x0000026F6829FDC0>)
+     36180    20       INFO   Thread-2                 _log   19:04:52 334.84339714050293 127.0.0.1 - - [11/Jul/2022 19:04:52] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     36180    20       INFO   Thread-3           send_mail_from_outlook   19:06:06 645.3948020935059 html body attached
+     36180    20       INFO   Thread-3           send_mail_from_outlook   19:06:06 647.4888324737549 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     36180    20       INFO   Thread-3           send_mail_from_outlook   19:06:06 647.4888324737549 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     36180    20       INFO   Thread-3           send_mail_from_outlook   19:06:06 651.6757011413574 image added--->C:\Users\91807\Downloads\tech-logo.png
+     36180    40      ERROR   Thread-3           send_mail_from_outlook   19:06:06 666.5856838226318 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x0000026F6829ED80>)
+     36180    20       INFO   Thread-3                 _log   19:06:06 668.6034202575684 127.0.0.1 - - [11/Jul/2022 19:06:06] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     36180    20       INFO MainThread                 _log   19:06:31 547.7292537689209  * Detected change in 'C:\\Users\\91807\\OutlookMail_Using_SMTP\\src\\mail_server.py', reloading
+     30804    20       INFO MainThread                 _log   19:06:31 594.5558547973633  * Restarting with stat
+     15964    30    WARNING MainThread                 _log   19:06:32 164.21198844909668  * Debugger is active!
+     15964    20       INFO MainThread                 _log   19:06:32 164.21198844909668  * Debugger PIN: 139-333-499
+     13836    20       INFO MainThread                 _log   19:06:40 171.85187339782715  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     13836    20       INFO MainThread                 _log   19:06:40 187.5605583190918  * Restarting with stat
+     30148    30    WARNING MainThread                 _log   19:06:40 750.7200241088867  * Debugger is active!
+     30148    20       INFO MainThread                 _log   19:06:40 766.6995525360107  * Debugger PIN: 139-333-499
+     11272    20       INFO MainThread                 _log   19:07:20 252.1190643310547  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     11272    20       INFO MainThread                 _log   19:07:20 268.42451095581055  * Restarting with stat
+     32292    30    WARNING MainThread                 _log   19:07:20 862.6577854156494  * Debugger is active!
+     32292    20       INFO MainThread                 _log   19:07:20 883.6977481842041  * Debugger PIN: 139-333-499
+     32292    20       INFO   Thread-2           send_mail_from_outlook   19:07:28 506.91890716552734 html body attached
+     32292    20       INFO   Thread-2           send_mail_from_outlook   19:07:28 507.9164505004883 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     32292    20       INFO   Thread-2           send_mail_from_outlook   19:07:28 508.91613960266113 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     32292    20       INFO   Thread-2           send_mail_from_outlook   19:07:28 509.9153518676758 image added--->C:\Users\91807\Downloads\tech-logo.png
+     32292    40      ERROR   Thread-2           send_mail_from_outlook   19:07:28 527.9819965362549 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x00000260B1C4EE40>)
+     32292    20       INFO   Thread-2                 _log   19:07:28 528.9154052734375 127.0.0.1 - - [11/Jul/2022 19:07:28] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     32292    20       INFO   Thread-3           send_mail_from_outlook   19:08:07 8.476018905639648 html body attached
+     32292    20       INFO   Thread-3           send_mail_from_outlook   19:08:07 9.513378143310547 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     32292    20       INFO   Thread-3           send_mail_from_outlook   19:08:07 11.495590209960938 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     32292    20       INFO   Thread-3           send_mail_from_outlook   19:08:07 13.458728790283203 image added--->C:\Users\91807\Downloads\tech-logo.png
+     32292    40      ERROR   Thread-3           send_mail_from_outlook   19:08:07 33.50377082824707 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x00000260B1C55640>)
+     32292    20       INFO   Thread-3                 _log   19:08:07 34.51728820800781 127.0.0.1 - - [11/Jul/2022 19:08:07] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     32292    20       INFO MainThread                 _log   19:09:54 692.7604675292969  * Detected change in 'C:\\Users\\91807\\OutlookMail_Using_SMTP\\src\\mail_server.py', reloading
+     11272    20       INFO MainThread                 _log   19:09:54 731.8494319915771  * Restarting with stat
+      8044    30    WARNING MainThread                 _log   19:09:56 23.700952529907227  * Debugger is active!
+      8044    20       INFO MainThread                 _log   19:09:56 35.913944244384766  * Debugger PIN: 139-333-499
+     23732    20       INFO MainThread                 _log   19:10:00 627.8421878814697  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     23732    20       INFO MainThread                 _log   19:10:00 637.9961967468262  * Restarting with stat
+     12188    30    WARNING MainThread                 _log   19:10:03 460.24560928344727  * Debugger is active!
+     12188    20       INFO MainThread                 _log   19:10:03 475.0490188598633  * Debugger PIN: 139-333-499
+     12188    20       INFO   Thread-2           send_mail_from_outlook   19:10:12 809.2575073242188 html body attached
+     12188    20       INFO   Thread-2           send_mail_from_outlook   19:10:12 811.2761974334717 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     12188    20       INFO   Thread-2           send_mail_from_outlook   19:10:12 812.2749328613281 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     12188    20       INFO   Thread-2           send_mail_from_outlook   19:10:12 814.3646717071533 image added--->C:\Users\91807\Downloads\tech-logo.png
+     12188    40      ERROR   Thread-2           send_mail_from_outlook   19:10:12 831.3765525817871 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x0000025860F2EEC0>)
+     12188    20       INFO   Thread-2                 _log   19:10:12 832.4055671691895 127.0.0.1 - - [11/Jul/2022 19:10:12] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     37184    20       INFO MainThread                 _log   19:10:45 837.5823497772217  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     37184    20       INFO MainThread                 _log   19:10:45 853.6438941955566  * Restarting with stat
+     29728    30    WARNING MainThread                 _log   19:10:46 776.9019603729248  * Debugger is active!
+     29728    20       INFO MainThread                 _log   19:10:46 799.0372180938721  * Debugger PIN: 139-333-499
+     29728    20       INFO   Thread-2           send_mail_from_outlook   19:11:37 125.07271766662598 html body attached
+     29728    20       INFO   Thread-2           send_mail_from_outlook   19:11:37 127.07138061523438 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     29728    20       INFO   Thread-2           send_mail_from_outlook   19:11:37 127.07138061523438 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     29728    20       INFO   Thread-2           send_mail_from_outlook   19:11:37 129.10771369934082 image added--->C:\Users\91807\Downloads\tech-logo.png
+     29728    40      ERROR   Thread-2           send_mail_from_outlook   19:11:37 150.09284019470215 (<class 'socket.gaierror'>, gaierror(11001, 'getaddrinfo failed'), <traceback object at 0x0000028B951FEE80>)
+     29728    20       INFO   Thread-2                 _log   19:11:37 151.05509757995605 127.0.0.1 - - [11/Jul/2022 19:11:37] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     38884    20       INFO MainThread                 _log   19:45:40 387.0851993560791  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000 (Press CTRL+C to quit)
+     38884    20       INFO MainThread                 _log   19:45:40 393.085241317749  * Restarting with stat
+     15644    30    WARNING MainThread                 _log   19:45:41 118.76845359802246  * Debugger is active!
+     15644    20       INFO MainThread                 _log   19:45:41 446.95305824279785  * Debugger PIN: 139-333-499
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:45:50 216.88437461853027 html body attached
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:45:50 221.87352180480957 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:45:50 222.90992736816406 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:45:50 227.9963493347168 image added--->C:\Users\91807\Downloads\tech-logo.png
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:45:58 959.5553874969482 npeyyala@techforce.ai got logged in successfully
+     15644    20       INFO   Thread-2           send_mail_from_outlook   19:46:02 751.7750263214111 message sent successfully
+     15644    20       INFO   Thread-2                 _log   19:46:02 756.310224533081 127.0.0.1 - - [11/Jul/2022 19:46:02] "POST /send/outlook_mail/ HTTP/1.1" 200 -
+     30340    20       INFO MainThread                 _log   19:47:11 484.1196537017822  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+     30340    20       INFO MainThread                 _log   19:47:11 492.1245574951172  * Restarting with stat
+     21932    30    WARNING MainThread                 _log   19:47:12 516.0984992980957  * Debugger is active!
+     21932    20       INFO MainThread                 _log   19:47:12 531.315803527832  * Debugger PIN: 139-333-499
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:19 656.482458114624 html body attached
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:19 658.5218906402588 attachment competed--->C:\Users\91807\Downloads\about_company.pdf
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:19 658.5218906402588 attachment competed--->C:\Users\91807\Documents\personal_information.docx
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:19 660.5184078216553 image added--->C:\Users\91807\Downloads\tech-logo.png
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:27 920.9368228912354 npeyyala@techforce.ai got logged in successfully
+     21932    20       INFO   Thread-2           send_mail_from_outlook   19:47:30 772.3679542541504 message sent successfully
+     21932    20       INFO   Thread-2                 _log   19:47:30 775.4955291748047 127.0.0.1 - - [11/Jul/2022 19:47:30] "POST /send/outlook_mail/ HTTP/1.1" 200 -
